@@ -20,12 +20,12 @@ Team Project 3
 7. [Questions](#questions)
 
 
-## Installation 💾
-
+## Installation 
+💾
 <br>
 
-## Usage 🧰
-
+## Usage 
+🧰
 
 ## Credits
 🏆
