@@ -30,6 +30,11 @@ Team Project 3
 ## Credits
 🏆
 <br>
+* [MUI](https://mui.com/) "The React UI library you always wanted"
+* [YouTube Tutorial](https://www.youtube.com/watch?v=y66RgYMAgSo)
+* [Justin Peters](https://www.instagram.com/jstnptrs/?hl=en)
+* [Cyril Rolando](https://www.curioos.com/aquasixio)
+* [Ten Hundred](https://www.instagram.com/tenhun/?hl=en)
 
 ## License 
 
