@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const { Schema } = mongoose;
 
-const productSchema = new Schema({
+const artworkSchema = new Schema({
   name: {
     type: String,
     required: true,
@@ -24,13 +24,13 @@ const productSchema = new Schema({
     min: 0,
     default: 0
   },
-  category: {
+  artist: {
     type: Schema.Types.ObjectId,
-    ref: 'Category',
+    ref: 'Artist',
     required: true
   }
 });
 
-const Product = mongoose.model('Product', productSchema);
+const Artwork = mongoose.model('Artwork', artworkSchema);
 
-module.exports = Product;
+module.exports = Artwork;
