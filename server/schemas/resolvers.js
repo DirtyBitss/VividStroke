@@ -115,7 +115,7 @@ const resolvers = {
   
         throw new AuthenticationError('Not logged in');
       },
-      updateProduct: async (parent, { _id, quantity }) => {
+      updateArtwork: async (parent, { _id, quantity }) => {
         const decrement = Math.abs(quantity) * -1;
   
         return await Artwork.findByIdAndUpdate(_id, { $inc: { quantity: decrement } }, { new: true });
