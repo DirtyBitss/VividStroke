@@ -46,7 +46,7 @@ export const sliderItems = [
   export const popularProducts = [
     {
       id:1,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+      img:"https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/e612d143664891.57f7ab5193f98.jpg",
     },
     {
       id:2,
