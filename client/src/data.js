@@ -15,7 +15,7 @@ export const sliderItems = [
     },
     {
       id: 3,
-      img: "https://cdn2.vectorstock.com/i/1000x1000/67/76/hardwood-floor-and-blank-wall-vector-1846776.jpg",
+      img: "https://thumbs.dreamstime.com/b/solo-interior-plant-blank-wall-background-d-render-79289703.jpg",
       title: "TIRED OF PLAIN WALLS?",
       desc: "GET SOME NEW ART! GET 30% OFF ON YOUR 1ST ORDER!",
       bg: "fbf0f4",
