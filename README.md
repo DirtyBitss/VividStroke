@@ -4,7 +4,7 @@
 Team Project 3
 <br> 
 
-![alt="site"](client/public/VividStroke7.png)
+![alt="site"](build/images/VividStroke7.jpeg)
 
 
 ## Description 📖 ![badge](https://img.shields.io/badge/License-MIT-blue)
