@@ -1,7 +1,7 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://thumbs.dreamstime.com/z/diseased-woman-sneezing-holding-tissue-15615859.jpg",
+      img: "https://media.istockphoto.com/photos/global-virus-variant-picture-id1304835356?k=20&m=1304835356&s=612x612&w=0&h=ZPtcmm7HZ27NlGM_9thVHrTdOLhRL315_EcngnZ3qXs=",
       title: "COVID SALE",
       desc: "STUCK INSIDE? GET 30% OFF ON YOUR 1ST ORDER!",
       bg: "f5fafd",
@@ -15,7 +15,7 @@ export const sliderItems = [
     },
     {
       id: 3,
-      img: "https://cdn2.vectorstock.com/i/1000x1000/67/76/hardwood-floor-and-blank-wall-vector-1846776.jpg",
+      img: "https://media.istockphoto.com/photos/black-frame-with-businessman-picture-id538897368?k=20&m=538897368&s=612x612&w=0&h=UgafukW44WD43WRc6bQ1JByA27NW08ULPLVQajG1VvA=",
       title: "TIRED OF PLAIN WALLS?",
       desc: "GET SOME NEW ART! GET 30% OFF ON YOUR 1ST ORDER!",
       bg: "fbf0f4",
@@ -38,8 +38,8 @@ export const sliderItems = [
     {
       id: 3,
       img: "https://cdnb.artstation.com/p/assets/images/images/019/244/173/large/cyril-rolando-faced.jpg?1562659819",
-      title: "Cyril Roland",
-      cat:"jeans"
+      title: "Cyril Rolando",
+      cat:"Cyril Rolando"
     },
   ];
 
