@@ -1,7 +1,7 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://thumbs.dreamstime.com/z/diseased-woman-sneezing-holding-tissue-15615859.jpg",
+      img: "https://media.istockphoto.com/photos/coronavirus-cell-isolated-picture-id1210775161?k=20&m=1210775161&s=612x612&w=0&h=CJR0be-dJe-UNIGwCksPbI2YKk5q2f8fILjLWH5qz0o=",
       title: "COVID SALE",
       desc: "STUCK INSIDE? GET 30% OFF ON YOUR 1ST ORDER!",
       bg: "f5fafd",
