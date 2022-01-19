@@ -181,7 +181,8 @@ const Cart = () => {
       } catch {}
     };
     stripeToken && makeRequest();
-  }, [stripeToken, cart.total, history]);
+  },
+   [stripeToken, cart.total, history]);
   return (
     <Container>
       <Navbar />
