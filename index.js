@@ -10,6 +10,11 @@ const cartRoute = require("./api/routes/cart");
 const orderRoute = require("./api/routes/order");
 const stripeRoute = require("./api/routes/stripe");
 const cors = require("cors");
+<<<<<<< HEAD
+=======
+const path = require('path');
+
+>>>>>>> 85319af5dc22df3b8d36e5cdf2c0d773e763cd71
 
 
 mongoose
@@ -32,7 +37,13 @@ app.use("/api/carts", cartRoute);
 app.use("/api/orders", orderRoute);
 app.use("/api/checkout", stripeRoute);
 
+<<<<<<< HEAD
 
 app.listen(process.env.PORT || 5000, () => {
   console.log("ITS ALIVE!");
 });
+=======
+app.listen(process.env.PORT || 5000, () => {
+  console.log("ITS ALIVE!");
+});
+>>>>>>> 85319af5dc22df3b8d36e5cdf2c0d773e763cd71
