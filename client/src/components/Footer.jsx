@@ -116,7 +116,7 @@ const Footer = () => {
           <ListItem>Cart</ListItem>
           <ListItem>Aquasixio</ListItem>
           <ListItem>Ten Hundred</ListItem>
-          <ListItem>jstnptrs</ListItem>
+          <ListItem>Justin Peters</ListItem>
           <ListItem>My Account</ListItem>
           <ListItem>Order Tracking</ListItem>
           <ListItem>Wishlist</ListItem>
@@ -132,7 +132,7 @@ const Footer = () => {
           <Phone style={{marginRight:"10px"}}/> (512) 555 - 5555
         </ContactItem>
         <ContactItem>
-          <MailOutline style={{marginRight:"10px"}} /> vividstroke@DirtyBitss.com
+          <MailOutline style={{marginRight:"10px"}} /> vividstroke@dirtybitss.com
         </ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>
