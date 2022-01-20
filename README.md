@@ -33,6 +33,7 @@ Our Digital Art Website allows you to browse and shop for some of the best digit
 * MongoDB
 * Mongoose
 * ExpressJS
+* NodeJS
 * ReactJS
 * MUI
 
