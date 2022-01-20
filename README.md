@@ -26,6 +26,12 @@ Our Digital Art Website allows you to browse and shop for some of the best digit
 💾
 <br>
 
+To install the entire project and access the code, you can clone the repository by using the command prompt:
+```bash
+git clone git@github.com:DirtyBitss/VividStroke.git
+```
+
+Then in the root directory as well as the client directory run ```npm install``` to install the necessary dependencies to get the server running as well as react.
 ## Built With
 * HTML
 * CSS
