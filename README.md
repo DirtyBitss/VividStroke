@@ -43,12 +43,12 @@ This project is covered by the [MIT](https://choosealicense.com/) license.
 ## Contribution
 🤝
 <br>
-* Chase Harvey
-* Seth Hixon
-* J Taylor Allen
-* Marisol Ramirez
-* Paul Barcenas
-* Jared Dodson
+* [Chase Harvey](https://github.com/ObeeK)
+* [Seth Hixon](https://github.com/Sethhixon92)
+* [J Taylor Allen](https://github.com/jtaylorallen)
+* [Marisol Ramirez](https://github.com/MarisolRamirez1031)
+* [Paul Barcenas](https://github.com/pab12)
+* [Jared Dodson](https://github.com/jareddodson)
 
 ## Visual
 
