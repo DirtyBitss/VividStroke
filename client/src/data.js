@@ -16,11 +16,11 @@ export const sliderItems = [
     {
       id: 3,
       img: "https://media.istockphoto.com/photos/global-virus-variant-picture-id1304835356?k=20&m=1304835356&s=612x612&w=0&h=ZPtcmm7HZ27NlGM_9thVHrTdOLhRL315_EcngnZ3qXs=",
-      title: "COVID SALE",
-      desc: "STUCK INSIDE? GET 30% OFF ON YOUR 1ST ORDER!",
+      title: "Why Digital Art?",
+      desc: "Welcome to VividStroke! We are so happy you made it. Digital art has gotten really popular for the last couple of years. It is one of the fastest growing industry!",
       bg: "fbf0f4",
     },
-  ];
+  ]; 
 
   export const categories = [
     {
