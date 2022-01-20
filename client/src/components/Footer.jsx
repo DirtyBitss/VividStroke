@@ -116,7 +116,7 @@ const Footer = () => {
           <ListItem>Cart</ListItem>
           <ListItem>Aquasixio</ListItem>
           <ListItem>Ten Hundred</ListItem>
-          <ListItem>jotnptrs</ListItem>
+          <ListItem>jstnptrs</ListItem>
           <ListItem>My Account</ListItem>
           <ListItem>Order Tracking</ListItem>
           <ListItem>Wishlist</ListItem>
@@ -126,13 +126,13 @@ const Footer = () => {
       <Right>
         <Title>Contact</Title>
         <ContactItem>
-          <Room style={{marginRight:"10px"}}/> 622 Dixie Path , South Tobinchester 98336
+          <Room style={{marginRight:"10px"}}/> 2022 Oceanboiled Drive, Terrell Hills, Tx 78209
         </ContactItem>
         <ContactItem>
-          <Phone style={{marginRight:"10px"}}/> +1 234 56 78
+          <Phone style={{marginRight:"10px"}}/> (512) 555 - 5555
         </ContactItem>
         <ContactItem>
-          <MailOutline style={{marginRight:"10px"}} /> contact@DirtyBits.com
+          <MailOutline style={{marginRight:"10px"}} /> vividstroke@DirtyBitss.com
         </ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>
