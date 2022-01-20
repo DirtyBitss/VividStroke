@@ -1,13 +1,23 @@
+const req = require("express/lib/request");
 const User = require("../models/User");
 const {
-  verifyToken,
+  // verifyToken,
   verifyTokenAndAuthorization,
   verifyTokenAndAdmin,
 } = require("./verifyToken");
 
 const router = require("express").Router();
 
-//UPDATE
+// router.get("/usertest", (req,res)=>{
+//   res.send("test a go");
+// });
+//  router.post("/userposttest", (req,res)=>{
+//    const username = req.body.username;
+//    res.send("this is you username:" + username)
+//  });
+
+
+// UPDATE
 router.put("/:id", verifyTokenAndAuthorization, async (req, res) => {
   if (req.body.password) {
     req.body.password = CryptoJS.AES.encrypt(
@@ -17,30 +27,26 @@ router.put("/:id", verifyTokenAndAuthorization, async (req, res) => {
   }
 
   try {
-    const updatedUser = await User.findByIdAndUpdate(
-      req.params.id,
-      {
-        $set: req.body,
-      },
-      { new: true }
-    );
+    const updatedUser = await User.findByIdAndUpdate(req.params.id,{
+        $set: req.body,},
+      { new: true });
     res.status(200).json(updatedUser);
   } catch (err) {
     res.status(500).json(err);
   }
 });
 
-//DELETE
+// DELETE
 router.delete("/:id", verifyTokenAndAuthorization, async (req, res) => {
   try {
     await User.findByIdAndDelete(req.params.id);
-    res.status(200).json("User has been deleted...");
+    res.status(200).json("User deleted...");
   } catch (err) {
     res.status(500).json(err);
   }
 });
 
-//GET USER
+// GET USER
 router.get("/find/:id", verifyTokenAndAdmin, async (req, res) => {
   try {
     const user = await User.findById(req.params.id);
@@ -51,7 +57,7 @@ router.get("/find/:id", verifyTokenAndAdmin, async (req, res) => {
   }
 });
 
-//GET ALL USER
+// GET ALL USER
 router.get("/", verifyTokenAndAdmin, async (req, res) => {
   const query = req.query.new;
   try {
@@ -64,7 +70,7 @@ router.get("/", verifyTokenAndAdmin, async (req, res) => {
   }
 });
 
-//GET USER STATS
+// GET USER STATS
 
 router.get("/stats", verifyTokenAndAdmin, async (req, res) => {
   const date = new Date();
@@ -73,15 +79,12 @@ router.get("/stats", verifyTokenAndAdmin, async (req, res) => {
   try {
     const data = await User.aggregate([
       { $match: { createdAt: { $gte: lastYear } } },
-      {
-        $project: {
+      {$project: {
           month: { $month: "$createdAt" },
         },
       },
-      {
-        $group: {
-          _id: "$month",
-          total: { $sum: 1 },
+      {$group: {
+        _id: "$month", total: { $sum: 1 },
         },
       },
     ]);

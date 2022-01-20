@@ -3,7 +3,6 @@ export const sliderItems = [
       id: 1,
       img: "https://media.istockphoto.com/photos/global-virus-variant-picture-id1304835356?k=20&m=1304835356&s=612x612&w=0&h=ZPtcmm7HZ27NlGM_9thVHrTdOLhRL315_EcngnZ3qXs=",
       title: "COVID SALE",
-      title: "lalalla",
       desc: "STUCK INSIDE? GET 30% OFF ON YOUR 1ST ORDER!",
       bg: "f5fafd",
     },
