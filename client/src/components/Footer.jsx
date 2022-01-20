@@ -126,21 +126,13 @@ const Footer = () => {
       <Right>
         <Title>Contact</Title>
         <ContactItem>
-<<<<<<< HEAD
           <Room style={{marginRight:"10px"}}/> 2022 Oceanboiled Drive, Terrell Hills, Tx 78209
-=======
-          <Room style={{marginRight:"10px"}}/> 2022 Final Project , Ocean Boiled 98336
->>>>>>> jtaylor
         </ContactItem>
         <ContactItem>
           <Phone style={{marginRight:"10px"}}/> (512) 555 - 5555
         </ContactItem>
         <ContactItem>
-<<<<<<< HEAD
           <MailOutline style={{marginRight:"10px"}} /> vividstroke@dirtybitss.com
-=======
-          <MailOutline style={{marginRight:"10px"}} /> vividstroke@dirtybit.art
->>>>>>> jtaylor
         </ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>
