@@ -1,7 +1,11 @@
 export const sliderItems = [
     {
       id: 1,
+<<<<<<< HEAD
       img: "https://media.istockphoto.com/photos/coronavirus-cell-isolated-picture-id1210775161?k=20&m=1210775161&s=612x612&w=0&h=CJR0be-dJe-UNIGwCksPbI2YKk5q2f8fILjLWH5qz0o=",
+=======
+      img: "https://media.istockphoto.com/photos/global-virus-variant-picture-id1304835356?k=20&m=1304835356&s=612x612&w=0&h=ZPtcmm7HZ27NlGM_9thVHrTdOLhRL315_EcngnZ3qXs=",
+>>>>>>> jtaylor
       title: "COVID SALE",
       desc: "STUCK INSIDE? GET 30% OFF ON YOUR 1ST ORDER!",
       bg: "f5fafd",
@@ -15,7 +19,11 @@ export const sliderItems = [
     },
     {
       id: 3,
+<<<<<<< HEAD
       img: "https://thumbs.dreamstime.com/b/solo-interior-plant-blank-wall-background-d-render-79289703.jpg",
+=======
+      img: "https://media.istockphoto.com/photos/black-frame-with-businessman-picture-id538897368?k=20&m=538897368&s=612x612&w=0&h=UgafukW44WD43WRc6bQ1JByA27NW08ULPLVQajG1VvA=",
+>>>>>>> jtaylor
       title: "TIRED OF PLAIN WALLS?",
       desc: "GET SOME NEW ART! GET 30% OFF ON YOUR 1ST ORDER!",
       bg: "fbf0f4",
@@ -38,15 +46,15 @@ export const sliderItems = [
     {
       id: 3,
       img: "https://cdnb.artstation.com/p/assets/images/images/019/244/173/large/cyril-rolando-faced.jpg?1562659819",
-      title: "Cyril Roland",
-      cat:"jeans"
+      title: "Cyril Rolando",
+      cat:"Cyril Rolando"
     },
   ];
 
   export const popularProducts = [
     {
       id:1,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+      img:"https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/e612d143664891.57f7ab5193f98.jpg",
     },
     {
       id:2,

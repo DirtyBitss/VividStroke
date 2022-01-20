@@ -10,7 +10,7 @@ import { useEffect, useState } from "react";
 import { userRequest } from "../requestMethods";
 import { useHistory } from "react-router";
 
-const KEY = process.env.REACT_APP_STRIPE;
+const KEY = 'sk_test_51KJ05FFv44W1ydqjv3VjJYKET7HwYzKZhG09K3JaCNeOvzk1EtAj8WuZk3mJW1PpudrFLUL4dJtNiFKs2Jyx8OQq00983I8Ea4';
 
 const Container = styled.div``;
 
@@ -181,7 +181,8 @@ const Cart = () => {
       } catch {}
     };
     stripeToken && makeRequest();
-  }, [stripeToken, cart.total, history]);
+  },
+   [stripeToken, cart.total, history]);
   return (
     <Container>
       <Navbar />
@@ -248,8 +249,8 @@ const Cart = () => {
               <SummaryItemPrice>$ {cart.total}</SummaryItemPrice>
             </SummaryItem>
             <StripeCheckout
-              name="Lama Shop"
-              image="https://avatars.githubusercontent.com/u/1486366?v=4"
+              name="VividStroke"
+              image=""
               billingAddress
               shippingAddress
               description={`Your total is $${cart.total}`}
