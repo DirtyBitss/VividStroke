@@ -1,14 +1,6 @@
 export const sliderItems = [
-<<<<<<< HEAD
-    {
-      id: 1,
-      img: "https://media.istockphoto.com/photos/black-frame-with-businessman-picture-id538897368?k=20&m=538897368&s=612x612&w=0&h=UgafukW44WD43WRc6bQ1JByA27NW08ULPLVQajG1VvA=",
-      title: "TIRED OF PLAIN WALLS?",
-      desc: "GET SOME NEW ART! GET 30% OFF ON YOUR 1ST ORDER!",
-      bg: "f5fafd",
-=======
   {
-    id: 2,
+    id: 1,
       img: "https://media.istockphoto.com/photos/black-frame-with-businessman-picture-id538897368?k=20&m=538897368&s=612x612&w=0&h=UgafukW44WD43WRc6bQ1JByA27NW08ULPLVQajG1VvA=",
       title: "TIRED OF PLAIN WALLS?",
       desc: "Let VividStroke be your Shop for Digital Art",
@@ -22,7 +14,6 @@ export const sliderItems = [
       desc: "Let VividStroke be your Shop for Digital Art",
       desc2: "Let VididStroke be your Shop for Digital Art",
       bg: "fbf0f4",
->>>>>>> jtaylor
     },
     {
       id: 3,
@@ -32,19 +23,11 @@ export const sliderItems = [
       bg: "fcf1ed",
     },
     {
-<<<<<<< HEAD
-      id: 3,
-      img: "https://media.istockphoto.com/photos/global-virus-variant-picture-id1304835356?k=20&m=1304835356&s=612x612&w=0&h=ZPtcmm7HZ27NlGM_9thVHrTdOLhRL315_EcngnZ3qXs=",
-      title: "Why Digital Art?",
-      desc: "Welcome to VividStroke! We are so happy you made it. Digital art has gotten really popular for the last couple of years. It is one of the fastest growing industry!",
-      bg: "fbf0f4",
-=======
       id: 4,
       img: "https://media.istockphoto.com/photos/global-virus-variant-picture-id1304835356?k=20&m=1304835356&s=612x612&w=0&h=ZPtcmm7HZ27NlGM_9thVHrTdOLhRL315_EcngnZ3qXs=",
       title: "COVID SALE",
       desc: "STUCK INSIDE? GET 30% OFF ON YOUR 1ST ORDER!",
       bg: "f5fafd",
->>>>>>> jtaylor
     },
   ]; 
 
