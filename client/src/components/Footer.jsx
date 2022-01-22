@@ -90,9 +90,9 @@ const Footer = () => {
       <Left>
         <Logo>VividStroke</Logo>
         <Desc>
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised words which don’t look even slightly believable.
+        DISCLAIMER
+        This website is a student project, the creators of the website hold NO rights to the artwort featured on this page. Our prices are purely false and do not reflex the artist sale prices.
+        We do highly encourage you to look up these digital artsit, their work, and adventure to find other artists!!!
         </Desc>
         <SocialContainer>
           <SocialIcon color="3B5999">

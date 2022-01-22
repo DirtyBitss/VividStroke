@@ -8,21 +8,41 @@ Team Project 3
 
 
 ## Description 📖 ![badge](https://img.shields.io/badge/License-MIT-blue)
+Our Digital Art Website allows you to browse and shop for some of the best digital art from around the globe. Our team handpicks each artist to be featured on our website to bring you digital art of the highest quality. Create an account with us and sign in to purchase that piece that we know catches your eye! 
 
 
 ## Table of Contents 
 1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Credits](#credits)
-4. [License](#license)
-5. [Contribution](#contribution)
-6. [Visual](#visual)
-7. [Questions](#questions)
+2. [Built With](#built-with)
+3. [Usage](#usage)
+4. [Credits](#credits)
+5. [License](#license)
+6. [Contribution](#contribution)
+7. [Visual](#visual)
+8. [Questions](#questions)
 
 
 ## Installation 
 💾
 <br>
+
+To install the entire project and access the code, you can clone the repository by using the command prompt:
+```bash
+git clone git@github.com:DirtyBitss/VividStroke.git
+```
+
+Then in the root directory as well as the client directory run ```npm install``` to install the necessary dependencies to get the server running as well as react.
+## Built With
+* HTML
+* CSS
+* JavaScript
+* MongoDB
+* Mongoose
+* ExpressJS
+* NodeJS
+* ReactJS
+* MUI
+
 
 ## Usage 
 🧰
@@ -43,12 +63,16 @@ This project is covered by the [MIT](https://choosealicense.com/) license.
 ## Contribution
 🤝
 <br>
-* Chase Harvey
-* Seth Hixon
-* J Taylor Allen
-* Marisol Ramirez
-* Paul Barcenas
-* Jared Dodson
+* [Chase Harvey](https://github.com/ObeeK)
+* [Seth Hixon](https://github.com/Sethhixon92)
+* [J Taylor Allen](https://github.com/jtaylorallen)
+* [Marisol Ramirez](https://github.com/MarisolRamirez1031)
+* [Paul Barcenas](https://github.com/pab12)
+* [Jared Dodson](https://github.com/jareddodson)
+
+#### Honorable Mentions
+* [Google](https://www.google.com/)
+* [Stack Overflow](https://stackoverflow.com/)
 
 ## Visual
 

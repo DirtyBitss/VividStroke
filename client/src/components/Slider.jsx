@@ -16,7 +16,7 @@ const Container = styled.div`
 const Arrow = styled.div`
   width: 50px;
   height: 50px;
-  background-color: #fff7f7;
+  background-color: none;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -62,14 +62,21 @@ const InfoContainer = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 70px;
+  font-size: 60px;
 `;
 
 const Desc = styled.p`
-  margin: 50px 0px;
+  margin: 20px 0px;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+`;
+
+const Desc2 = styled.p`
+  margin: 20px 0px;
   font-size: 20px;
   font-weight: 500;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 `;
 
 const Button = styled.button`
@@ -103,6 +110,7 @@ const Slider = () => {
             <InfoContainer>
               <Title>{item.title}</Title>
               <Desc>{item.desc}</Desc>
+              <Desc2>{item.desc2}</Desc2>
               <Button>SHOW NOW</Button>
             </InfoContainer>
           </Slide>
