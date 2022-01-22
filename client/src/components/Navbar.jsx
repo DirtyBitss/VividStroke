@@ -75,7 +75,9 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
+          <Link to="/">
           <Logo>VividStroke</Logo>
+          </Link>
         </Center>
         <Right>
           <Link to="/register">
