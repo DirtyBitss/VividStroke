@@ -4,14 +4,14 @@ export const sliderItems = [
       img: "https://media.istockphoto.com/photos/black-frame-with-businessman-picture-id538897368?k=20&m=538897368&s=612x612&w=0&h=UgafukW44WD43WRc6bQ1JByA27NW08ULPLVQajG1VvA=",
       title: "TIRED OF PLAIN WALLS?",
       desc: "Let VividStroke be your Shop for Digital Art",
-      desc2: "Come explore our artist!",
+      desc2: "",
       bg: "",
   },
   {
       id: 2,
       img:"https://i.postimg.cc/HWb9x9BH/Vivid-Stroke7.jpg",
-      title: "TIRED OF PLAIN WALLS?",
-      desc: "Let VividStroke be your Shop for Digital Art",
+      title: "Give Your Space a Creative New Look",
+      desc: "Come explore our artist!",
       bg: "fbf0f4",
     },
     {
