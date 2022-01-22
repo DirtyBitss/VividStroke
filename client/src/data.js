@@ -1,7 +1,7 @@
 export const sliderItems = [
   {
-    id: 2,
-      img: "https://media.istockphoto.com/photos/black-frame-with-businessman-picture-id538897368?k=20&m=538897368&s=612x612&w=0&h=UgafukW44WD43WRc6bQ1JByA27NW08ULPLVQajG1VvA=",
+    id: 1,
+      img: "https://i.postimg.cc/HWb9x9BH/Vivid-Stroke7.jpg",
       title: "TIRED OF PLAIN WALLS?",
       desc: "Let VividStroke be your Shop for Digital Art",
       desc2: "Let VididStroke be your Shop for Digital Art",
