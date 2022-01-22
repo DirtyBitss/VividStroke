@@ -1,4 +1,5 @@
-import { Add, Remove } from "@material-ui/icons";
+import { Remove, Add } from "@material-ui/icons";
+// import Button from "@mui-material/Button";
 import { useSelector } from "react-redux";
 import styled from "styled-components";
 import Announcement from "../components/Announcement";
@@ -192,7 +193,7 @@ const Cart = () => {
         <Top>
           <TopButton>CONTINUE SHOPPING</TopButton>
           <TopTexts>
-            <TopText>Shopping Bag(2)</TopText>
+            <TopText>Shopping Bag(0)</TopText>
             <TopText>Your Wishlist (0)</TopText>
           </TopTexts>
           <TopButton type="filled">CHECKOUT NOW</TopButton>
@@ -210,17 +211,17 @@ const Cart = () => {
                     <ProductId>
                       <b>ID:</b> {product._id}
                     </ProductId>
-                    <ProductColor color={product.color} />
-                    <ProductSize>
+                    {/* <ProductColor color={product.color} /> */}
+                    {/* <ProductSize>
                       <b>Size:</b> {product.size}
-                    </ProductSize>
+                    </ProductSize> */}
                   </Details>
                 </ProductDetail>
                 <PriceDetail>
                   <ProductAmountContainer>
-                    <Add />
-                    <ProductAmount>{product.quantity}</ProductAmount>
                     <Remove />
+                    <ProductAmount>{product.quantity}</ProductAmount>
+                    <Add />
                   </ProductAmountContainer>
                   <ProductPrice>
                     $ {product.price * product.quantity}
@@ -250,7 +251,7 @@ const Cart = () => {
             </SummaryItem>
             <StripeCheckout
               name="VividStroke"
-              image=""
+              imag src= "build\images\VividStroke7.jpeg"
               billingAddress
               shippingAddress
               description={`Your total is $${cart.total}`}

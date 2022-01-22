@@ -60,23 +60,18 @@ const ProductList = () => {
       <Title>{cat}</Title>
       <FilterContainer>
         <Filter>
+
+          {/* POSSIBLE PICTURE SIZES/ OTHER PRODUCTS */}
           {/* <FilterText>Filter Products:</FilterText> */}
-          {/* <Select name="color" onChange={handleFilters}>
-            <Option disabled>Color</Option>
-            <Option>white</Option>
-            <Option>black</Option>
-            <Option>red</Option>
-            <Option>blue</Option>
-            <Option>yellow</Option>
-            <Option>green</Option>
+          {/* <Select name="" onChange={handleFilters}>
           </Select> */}
           {/* <Select name="size" onChange={handleFilters}>
             <Option disabled>Size</Option>
-            <Option>XS</Option>
-            <Option>S</Option>
-            <Option>M</Option>
-            <Option>L</Option>
-            <Option>XL</Option>
+            <Option>8x6</Option>
+            <Option></Option>
+            <Option></Option>
+            <Option></Option>
+            <Option>X</Option>
           </Select> */}
         </Filter>
         <Filter>
