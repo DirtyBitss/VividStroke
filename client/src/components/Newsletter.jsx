@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { mobile } from "../responsive";
 
 const Container = styled.div`
-  height: 60vh;
+  height: 50vh;
   background-color: #5DE8FF;
   display: flex;
   align-items: center;
@@ -11,7 +11,7 @@ const Container = styled.div`
   flex-direction: column;
 `;
 const Title = styled.h1`
-  font-size: 70px;
+  font-size: 60px;
   margin-bottom: 20px;
   color: #FFFFFF;
 `;
@@ -51,7 +51,7 @@ const Newsletter = () => {
   return (
     <Container>
       <Title>Newsletter</Title>
-      <Desc>Get timely updates from your favorite artists!</Desc>
+      <Desc>Get timely updates about new featured artists!</Desc>
       <InputContainer>
         <Input placeholder="Your email" />
         <Button>
