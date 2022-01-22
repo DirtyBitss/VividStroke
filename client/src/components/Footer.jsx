@@ -90,7 +90,9 @@ const Footer = () => {
       <Left>
         <Logo>VividStroke</Logo>
         <Desc>
-        We do not have rights to the art, this is a project website.
+        DISCLAIMER
+        This website is a student project, the creators of the website hold NO rights to the artwort featured on this page. Our prices are purely false and do not reflex the artist sale prices.
+        We do highly encourage you to look up these digital artsit, their work, and adventure to find other artists!!!
         </Desc>
         <SocialContainer>
           <SocialIcon color="3B5999">
