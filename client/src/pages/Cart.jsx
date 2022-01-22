@@ -251,7 +251,7 @@ const Cart = () => {
             </SummaryItem>
             <StripeCheckout
               name="VividStroke"
-              imag src= "build\images\VividStroke7.jpeg"
+              imag src= "https://i.postimg.cc/HWb9x9BH/Vivid-Stroke7.jpg"
               billingAddress
               shippingAddress
               description={`Your total is $${cart.total}`}
